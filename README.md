@@ -32,6 +32,8 @@ CUDA Version: 12.5
 .\TransactionSets\pumsb.txt
 .\TransactionSets\T40I10D100K.txt
 .\TransactionSets\kosarak.txt
+
+The standard extended FIMI dataset must not be redistributed; users are required to download it themselves. After downloading the TXT files, place them in the TransactionSets folder of this project. Configure the corresponding filenames in the code, and the algorithms will load the data automatically.
 ================================================================
 ## The code text in the kernel.cu file:
 
